@@ -1,0 +1,48 @@
+let firstName = "Piyaphat";
+console.log(firstName);
+firstName = "Piya";
+console.log(firstName);
+let age = 23;
+console.log(age);
+//2
+
+let shopName = "Panew";
+let message = "Welcome to  " +shopName;
+console.log(message);
+let customerName = "Ple";
+let orderReadyMessage = "ThaiTea คุณ " +customerName +" ได้แล้วครับ";
+console.log(orderReadyMessage);
+//ออร์เดอร์ใหม่ 
+shopName = "Panew";
+message = "Welcome to  " + shopName;
+console.log(message);
+customerName = "Guy";
+orderReadyMessage = "Blackcoffee คุณ " + customerName + " ได้แล้วครับ";
+console.log(orderReadyMessage);
+//ออร์เดอร์ใหม่ 
+function sayWelcome(){
+    console.log("Welcomeee");
+}
+sayWelcome();
+sayWelcome();
+sayWelcome();
+sayWelcome();
+
+function sayHello(customerName){
+    console.log("Hello " +customerName);
+}
+sayHello("Air");
+sayHello("Mon");
+
+
+
+
+
+
+
+//queue 
+function queue(queueN, couter) {
+    console.log("Queue:" + queueN + " Please use the couter " + couter);
+}
+
+queue("230", "3");
